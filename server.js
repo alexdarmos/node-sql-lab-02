@@ -11,7 +11,7 @@ const cartItems = require("./router");
 app.use("/cart-items", cartItems);
 
 // define the port
-const port = 5000;
+const port = process.env.PORT || 5000;
 // run the server
 app.listen(port, () => console.log(`Listening on port: ${port}.`));
 

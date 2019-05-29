@@ -1,0 +1,5 @@
+{
+    "name": "Shopping Cart",
+    "description": "Add, remove, and update items in your cart.",
+    "image": "heroku/nodejs"
+}
